@@ -6,21 +6,21 @@ This repository contains end-to-end tests for the DAT.com website and DAT APIs u
 
 ## Folder Structure
 
-├── cypress
-│   ├── e2e
-│   │   ├── api-tests
-│   │   │   ├── api-test.cy.js
-│   │   └── ui-tests
-│   │       ├── navigation-and-assertion.cy.js  
-            └── page-navigation.cy.js  
-│   ├── fixtures                  # Test data
-│   └── support
-│       ├── locators.js           # Page locators and selectors
-        ├── constants.js          # Page constants
-│       └── commands.js           # Custom Cypress commands
-├── cypress.config.js             # Cypress configuration file
-├── package.json
-└── README.md
+            ├── cypress
+            │   ├── e2e
+            │   │   ├── api-tests
+            │   │   │   ├── api-test.cy.js
+            │   │   └── ui-tests
+            │   │       ├── navigation-and-assertion.cy.js  
+                        └── page-navigation.cy.js  
+            │   ├── fixtures                  # Test data
+            │   └── support
+            │       ├── locators.js           # Page locators and selectors
+                    ├── constants.js          # Page constants
+            │       └── commands.js           # Custom Cypress commands
+            ├── cypress.config.js             # Cypress configuration file
+            ├── package.json
+            └── README.md
 
 ## Table of Contents
 
