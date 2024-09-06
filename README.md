@@ -44,17 +44,17 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+   git clone https://github.com/your-username/DAT-cypress-project
+   cd DAT-cypress-project/cypress
 
 2. **Install Dependencies:**
    ```bash
-       `npm install`
+       npm install
 
 4. **Running Tests:**
   Headless Mode: To run tests in headless mode (no browser UI), use:
    ```bash
-       `npx cypress run`
+       npx cypress run
 
   Headed Mode: To run tests in headed mode (with browser UI), use:
     `npx cypress open`
