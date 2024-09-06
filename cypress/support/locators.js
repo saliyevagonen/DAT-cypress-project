@@ -17,8 +17,6 @@ export const navBar = {
     signupLink: "#menu-item-14352",
 };
 
-// Nav Bar Products dropdown 
-
 // Home Page Nav Bar
 export const products = {
     datOneLink: "#menu-item-12792",

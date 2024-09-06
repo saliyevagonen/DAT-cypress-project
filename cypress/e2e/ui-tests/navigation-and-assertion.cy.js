@@ -38,12 +38,13 @@ describe("DAT UI Tests - Navigation And Assertion", () => {
     // Verify that the URL includes '/load-boards
     cy.url().should("include", "/load-boards");
 
-    // Get Combo tab and click on it
+    // Scroll to and click on the 'Combo' tab in the Load Board Plans section
     cy.get(loadBoardPlans.comboTab)
       .scrollIntoView()
       .contains(constants.LOAD_BOARD_PLANS_COMBO)
       .click();
-        
+    
+    // Verify that the 'DAT One Select Broker/Carrier' contains "Formerly Power Select Broker/Carrier"
     cy.get(comboPlan.tableOneTitle)
       .should("be.visible")
       .and("contain", "DAT One")
