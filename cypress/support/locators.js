@@ -29,15 +29,16 @@ export const products = {
 // Load Board Page Plans And Pricing Section
 
 export const loadBoardPlans = {
-    plansAndPricingSection: '[data-id="24797f92"]',
+    plansAndPricingSection: 'section[data-id="ad2bd94"]',
     carriersTab: "#carriers-tab",
     brokersTab: "#brokers-tab",
-    comboTab: "#combo-tab",
+    comboTab: "#combo-tab[data-template-id='12806']",
     shippersTab: "#shippers-tab",
 };
 
 //  Combo Plan
 export const comboPlan = {
-    tableOneTitle: ".eae-table-1",
+    // Could not find a unique identifier for this element
+    tableOneTitle: '#jet-tabs-content-1873 .tableFloatingHeaderOriginal >> .eae-table-1',
     tableTwoTitle: ".eae-table-2",
 }
