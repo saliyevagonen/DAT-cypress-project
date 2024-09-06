@@ -9,7 +9,7 @@ module.exports = defineConfig({
     viewportHeight: 600,
     defaultCommandTimeout: 10000, // Timeout for commands (10 seconds)
     requestTimeout: 15000,        // Timeout for API requests (15 seconds)
-    pageLoadTimeout: 60000,       // Timeout for page loads (1 minute)
+    pageLoadTimeout: 30000,       // Timeout for page loads (30 seconds)
     retries: {
       runMode: 0,
       openMode: 0,
