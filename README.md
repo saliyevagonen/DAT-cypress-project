@@ -48,11 +48,13 @@ Before you begin, ensure you have the following installed:
    cd your-repository
 
 2. **Install Dependencies:**
-   `npm install`
+   ```bash
+       `npm install`
 
-3. **Running Tests:**
+4. **Running Tests:**
   Headless Mode: To run tests in headless mode (no browser UI), use:
-    `npx cypress run`
+   ```bash
+       `npx cypress run`
 
   Headed Mode: To run tests in headed mode (with browser UI), use:
     `npx cypress open`
